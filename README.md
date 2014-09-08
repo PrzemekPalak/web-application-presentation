@@ -1,4 +1,1 @@
-angularjsTutorial
-=================
-
-AngularJs tutorial
+Modern web application - slides
