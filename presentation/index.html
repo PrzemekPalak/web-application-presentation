@@ -62,7 +62,7 @@
 
             <p>
                 <small>
-                    
+
                     <br>
                     <a href="http://www.palak.pl">Przemek Palak</a>
                     </br>
@@ -95,9 +95,11 @@
                 <aside class="notes">
                     <ul>
                         <li>za każdym razem renderowana jest cała strona mimo że często zmienia się tylko część</li>
-                        <li>dużo przetwarzania po stronie serwera </li>
-                        <li>często przetwarzane są te same rzeczy </li>
-                        <li>nieekologiczne - dużo mocy proceora wykożystywane jest za każdym razem do renderowania widoku</li>
+                        <li>dużo przetwarzania po stronie serwera</li>
+                        <li>często przetwarzane są te same rzeczy</li>
+                        <li>nieekologiczne - dużo mocy proceora wykożystywane jest za każdym razem do renderowania
+                            widoku
+                        </li>
                     </ul>
                 </aside>
             </section>
@@ -116,22 +118,105 @@
             </aside>
         </section>
         <section>
-            <img src="img/noshiit-18.jpg">                        
+            <img src="img/noshiit-18.jpg">
         </section>
-       
+
         <section>
             <h1>SPA</h1>
+
             <p class="fragment current-visible">Sanus Per Aquam</p>
+
             <p class="fragment">Single Page Application</p>
             <aside class="notes">
                 Zdrowie przez Wodę
             </aside>
         </section>
         <section>
-            <img src="img/spa.png">                        
+            <img src="img/spa.png">
         </section>
         <section>
-            <img src="img/keep-calm-and-learn-angularjs.png">                        
+            <img src="img/keep-calm-and-learn-angularjs.png">
+        </section>
+        <section>
+            <img src="img/vertx-logo-white-big.png">
+        </section>
+        <section>
+            <h2>Vert.x</h2>
+            <h4>Application platform that runs on the JVM</h4>
+            <ul>
+                <li class="fragment">
+                    polyglot </br> (JavaScript, Ruby, Groovy, Java, Python, Scala, Clojure)
+                </li>
+                <li class="fragment">
+                    non-blocking
+                </li>
+                <li class="fragment">
+                    event-driven
+                </li>
+            </ul>
+        </section>
+        <section>
+            <img src="img/Event_Loop.png">
+
+            <p>The Golden Rule - Don't block the event loop!</p>
+        </section>
+        <section>
+            <section>
+                <p>Java default: thread pool + locking of shared data</p>
+                <img src="img/Crowded-Pit.jpg">
+            </section>
+            <section>
+                <p>Actors model: single queue + one thread</p>
+                <img src="img/actorz.png">
+            </section>
+        </section>
+        <section>
+            <section>
+                <h1>Verticle</h1>
+
+                <p>The packages of code that Vert.x executes are called verticles (think of a particle, for Vert.x).</p>
+                <aside class="notes">
+                    particle - cząstka
+                </aside>
+            </section>
+            <section>
+                <p>Vert.x instance</p>
+                <img src="img/verticale_modules_application.PNG">
+            </section>
+            <section>
+                <p>4 core CPU - 4 treads</p>
+                <img src="img/verticales-threads.PNG">
+            </section>
+            <section>
+                <p>Distributed event bus</p>
+                <img src="img/distributedEventBus.PNG">
+            </section>
+        </section>
+        <section>
+            <section>
+                <h2>Container API</h2>
+                <ul>
+                    <li>Deploy and undeploy verticles</li>
+                    <li>Deploy and undeploy modules</li>
+                    <li>Retrieve verticle configuration</li>
+                    <li>Logging</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Core API</h2>
+                <ul>
+                    <li>TCP/SSL servers and clients</li>
+                    <li>HTTP/HTTPS servers and clients</li>
+                    <li>WebSockets servers and clients</li>
+                    <li>Periodic and one-off timers</li>
+                    <li>Buffers</li>
+                    <li>Flow control</li>
+                    <li>File-system access</li>
+                    <li>Shared map and sets</li>
+                    <li>Accessing configuration</li>
+                    <li>SockJS</li>
+                </ul>
+            </section>
         </section>
     </div>
 
